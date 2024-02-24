@@ -1,0 +1,40 @@
+table {
+    border-collapse: collapse;
+    width: 80vw;
+    /* border-spacing: 20px 0px; */
+}
+
+.Main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Coin-maininfo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Coin-maininfo>img {
+    height: 40px;
+    width: 40px;
+}
+
+tr {
+    /* width:100vw; */
+    border-bottom: 2px solid white;
+}
+
+td {
+    /* border: 2px solid red; */
+    text-align: right;
+    width: fit-content;
+    padding: 15px 15px;
+}
+.negative{
+    color: red;
+}
+.positive{
+    color: green;
+}
